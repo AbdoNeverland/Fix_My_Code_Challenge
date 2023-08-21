@@ -53,7 +53,7 @@ class User():
         """
         if pwd is None or type(pwd) is not str:
             return False
-        # print(f"comparing   {hashlib.md5(pwd.encode()).hexdigest().lower()}  {self.__password}")
+        # print(f" comparing   {hashlib.md5(pwd.encode()).hexdigest().lower()}  {self.__password}")
         if self.__password is None:
             return False
         
